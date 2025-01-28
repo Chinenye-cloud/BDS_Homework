@@ -1,2 +1,2 @@
-# BDS_Homework
-Homework from my Behavioral Data Science class
+# BDS_Homework - 1
+Homework-1 for my Behavioral Data Science class

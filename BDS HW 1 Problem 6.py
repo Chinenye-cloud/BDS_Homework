@@ -12,5 +12,5 @@ def generate_pi(num):
     return 4 * estimate
 
 
-pi = generate_pi(100000)
+pi = generate_pi(1000000)
 print(pi)

@@ -1,0 +1,14 @@
+git restore
+	Returns a file to its previous state, if its in the staging area it is unstaged, if it was committed it restores the file to its last committed state. 
+  If --staged is used, it removes the file from the staging area but doesn't alter the contents of it. --source <ref> allows a file to be restored to a specific version, that being what <ref> is represented by.
+  Sample code line: git restore <filename>
+git checkout
+	Restores working tree files to a previous state, or switches branches making the branch switched to the branch the HEAD is selecting. 
+	When restoring files to a previous state, specifying HEAD will restore the file to the most recently committed version. 
+  Sample code line: git checkout <branch> | git checkout <filename> <hash>
+git reset
+	Returns the project to a previous version. Must be done while HEAD is pointed towards the main branch. It effectively deletes any commits that happened after the commit being reset to. 
+  sample code line: git reset <hash>
+git revert
+	Creates a new commit that is the opposite of an existing commit. This can be done to any commit at any point in time. The revert is contained in the log. 
+  Sample code line: git revert <hash>
